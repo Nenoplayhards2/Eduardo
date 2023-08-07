@@ -22,7 +22,7 @@ text-decoration: underline;
 .professores {
 width: 940px;
 margin: 0 auto;
-padding: 50px 0;
+
 }
 
 .professores li {
@@ -35,6 +35,7 @@ padding: 50px 0;
     box-sizing: border-box;
     border: 2px solid #98FB98;
     border-radius: 10px;
+    padding: 50px;
 }
 
 body{
@@ -42,7 +43,7 @@ body{
 }
 
 .caixa {
-    margin-right: auto;
+    height: 60px;
 }
 #logo {
 height: 150px;
@@ -64,8 +65,7 @@ form {
     position: relative;
     padding-top: 60px;
 }
-#logoeggs {
-    width: 90px;
-   
-
+#logoeggs{
+    width: 50px;
+    
 }
