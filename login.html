@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela de login</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" type="text/css" href="login.css" />
 </head>
 <body>
@@ -11,12 +12,19 @@
         <h1>
             Login
         </h1>
-     <input type="text" placeholder="@email">
+     <input type="text" placeholder="E-mail">
      <br><br>
-     <input type="password" placeholder="senha">
+     <input type="password" placeholder="Senha" id="Senha">
+     <i class="bi bi-eye" id="btnSenha"onclick="mostrarsenha()"></i>
      <br><br>
-     <button class="Enviar">Enviar</button>
+     <a href=""><button class="Enviar">Enviar</button></a>
      <a href="index.html"><button class="Voltar">Voltar</button></a>
     </div>
+
+
+
+
+
+    <script src="main.js"></script>
 </body>
 </html>
