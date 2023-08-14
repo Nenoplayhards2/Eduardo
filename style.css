@@ -1,7 +1,7 @@
 header {
     width: auto;
     background-color: #ffaf03;
-    height: 70px;
+    height: 75px;
 }
 nav a {
     text-decoration: none;
@@ -9,10 +9,9 @@ nav a {
     color: blueviolet;
     font-weight: bold;
     font-size: 22px;
-    text-decoration: none;
     text-align: center;
-    padding-left: 30px;
-    padding-right: 20px;
+    padding-left: 15px;
+    padding-right: 30px;
 }
 
 nav a:hover {
@@ -32,11 +31,11 @@ margin: 0 auto;
     width: 30%;
     vertical-align: top;
     margin: 0 1.5%;
-    padding: 30px 20px;
+    padding: 20px 20px;
     box-sizing: border-box;
     border: 2px solid #98FB98;
     border-radius: 10px;
-    padding: 50px;
+    padding: 10px;
 }
 
 body{
@@ -48,12 +47,17 @@ body{
 }
 #logo {
 height: 150px;
+float:  left;
+position: absolute;
+left: 60px;
+top: 5px;
 
 }
 .navbar ul {
     text-decoration: none;
     list-style-type: none;
     overflow: hidden;
+
 }
 .navbar ul li {
     text-decoration: none;
